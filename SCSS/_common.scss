@@ -1,0 +1,18 @@
+// Fonts link
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700&display=swap');
+
+
+
+// Common Properties every section
+*{
+   
+    box-sizing: border-box;
+   
+}
+
+body{
+
+    font-family: 'Be Vietnam Pro' ,sans-serif ;
+    background-color: $body-color-grey;
+
+}

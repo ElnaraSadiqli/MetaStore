@@ -1,0 +1,205 @@
+//------------------Header---------------//
+#header {
+    padding-top: 1.8rem;
+
+    //  Pages Header Content (logo and basket) 
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+
+        //    Pages Header Logo
+        .header-logo {
+
+            //    Pages Header Logo first letter
+            h3 {
+                font: normal 700 1.5rem/ 0.8rem 'Be Vietnam Pro', sans-serif;
+
+                //    Pages Header Logo second letter
+                span {
+                    color: #da0909;
+                }
+            }
+
+            //Pages Header Logo Description
+            p {
+                font: normal 600 0.8rem/ 1.3rem 'Be Vietnam Pro', sans-serif;
+                color: $text-color-grey;
+            }
+        }
+
+        //    Pages Header Basket
+        .header-basket {
+            background-color: transparent;
+            border-color: transparent;
+
+            //    Pages Header Basket count
+            span {
+                font-size: 14px;
+                margin-right: 10px;
+            }
+
+            //    Pages Header Basket icon
+            img {
+                object-fit: cover;
+            }
+
+            //    Pages Header Basket down icon
+            a {
+                color: $text-color-black;
+                font-size: 10px;
+            }
+
+        }
+
+    }
+
+
+
+
+}
+
+//------------------Main---------------//
+
+
+// Pages Navigation Menu
+#menu-navigetion {
+    margin-top: 2rem;
+
+    // Pages Navigation Menu title list
+    .menu-navigetion-list {
+        display: flex;
+        justify-content: center;
+
+        // Pages Navigation Menu title
+        li {
+            margin-right: 2.5rem;
+
+            a {
+                color: $text-color-grey;
+                font: normal 700 0.8rem/1rem 'Be Vietnam Pro', sans-serif;
+
+                // Pages Navigation Menu title when active
+                &:focus {
+                    color: $text-color-black;
+                }
+
+            }
+
+        }
+    }
+}
+
+// Page Shopping Product Cards 
+#product-cards {
+    padding-top: 3.5rem;
+
+    // Page Shopping Product Cards Top and bottom
+    .product-cards-all {
+
+        // Page Shopping Product All cards properties
+        .product-card {
+            overflow: hidden;
+            @include _card;
+            margin-right: 0.5rem;
+
+            // Page Shopping Product All cards image
+            img {
+                object-fit: contain;
+                height: 12rem;
+                padding: 1rem;
+            }
+
+            // Page Shopping Product All cards Footer
+            .product-card-footer {
+                position: relative;
+                top: 1rem;
+                border-top: 1px solid rgba(0, 0, 0, .1);
+                display: flex;
+                justify-content: space-between;
+
+                //Page Product Card Price
+                .product-card-footer-price {
+                    color: $price-color-red;
+                    font-weight: 600;
+                    margin: 1rem 0px;
+                }
+
+                //Page  Product Card Insert button
+                .product-card-footer-button {
+                    background-color: transparent;
+                    border: transparent;
+                    font-weight: 500;
+
+                    //Page  Product Card Insert button plus(+)
+                    // .plus {
+
+                    //     // &:focus {}
+                    // }
+
+                }
+
+
+            }
+        }
+    }
+
+    // Product cards in  bottom 
+    .product-cards-bottom {
+        margin-top: 2rem;
+    }
+}
+
+
+//------------------Footer-------------------//
+
+#footer {
+    margin-top: 5rem;
+
+    //Footer Fornitures Top ( Cash Guaranted )
+    .footer-guaranted {
+        background-color: #f1f1f1;
+        padding: 2rem 0px;
+
+        // /Footer Fornitures Top (Icon Images )
+        .footer-guaranted-icon {
+            object-fit: contain;
+            position: relative;
+            top: 1rem;
+            right: 1rem;
+        }
+
+        // /Footer Fornitures Top (Titles)
+        .footer-guaranted-title {
+            letter-spacing: 1px;
+            line-height: 1rem;
+            font-size: 14px;
+            color: $text-color-black;
+        }
+
+        // /Footer Fornitures Top (Content)
+        .footer-guaranted-content {
+            font-size: 12px;
+            letter-spacing: 1px;
+            padding-top: 5px;
+        }
+
+
+
+    }
+
+    //Footer Fornitures Bottom
+    .footer-bottom-about {
+        margin: 2rem 0px;
+
+        // Footer Fornitures Bottom ( Description ) 
+        .footer-bottom-desciption {
+            font-size: 13px;
+        }
+
+        //Footer Fornitures Bottom ( Cash Images)
+        img {
+            width: 11rem;
+        }
+
+    }
+}

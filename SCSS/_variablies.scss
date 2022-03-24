@@ -1,0 +1,35 @@
+// ------------------------------------Color variablies--------------------------------------
+
+$text-color-grey: #465e6a;
+$text-color-black: #000000;
+$price-color-red: #da0909;
+$body-color-grey:#f8f8f8;
+$logo-color-red:#da0909;
+
+
+
+// -----------------------------------Text Size Variablies------------------------------------
+
+//---- Font size:12px weight:400 line height:21px
+.text-small-size {
+
+    font: normal 400 0.75rem/1.31rem  'Be Vietnam Pro', sans-serif;
+}
+
+//---- Font size:14px weight:500 line height:24px
+.text-medium-size {
+
+    font: normal 500 0.875rem/1.5rem  'Be Vietnam Pro', sans-serif;
+}
+
+//---- Font size:16px weight:600 line height:32px
+.text-biger-size {
+
+    font: normal 600  1rem/2rem 'Be Vietnam Pro', sans-serif;
+}
+
+// Font size:13px weight:600 line height:24px
+.price-size {
+
+    font: normal 600 0.812rem/1.5rem  'Be Vietnam Pro', sans-serif;
+}
