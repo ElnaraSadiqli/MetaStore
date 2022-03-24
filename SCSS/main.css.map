@@ -7,8 +7,7 @@
         "_common.scss",
         "_reset.scss",
         "_mixin.scss",
-        "Pages/_for-org-mix.scss",
-        "Pages/_home.scss"
+        "Pages/_for-org-mix.scss"
     ],
     "names": [],
     "file": "main.css"
