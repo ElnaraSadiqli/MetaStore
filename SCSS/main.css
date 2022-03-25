@@ -89,11 +89,11 @@ button {
   font-size: 10px;
 }
 
-#menu-navigetion {
-  margin-top: 2rem;
+#menu-navigation {
+  margin-top: 4rem;
 }
 
-#menu-navigetion .menu-navigetion-list {
+#menu-navigation .menu-navigetion-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,43 +102,42 @@ button {
           justify-content: center;
 }
 
-#menu-navigetion .menu-navigetion-list li {
-  margin-right: 2.5rem;
+#menu-navigation .menu-navigetion-list li {
+  margin-right: 1.4rem;
 }
 
-#menu-navigetion .menu-navigetion-list li a {
+#menu-navigation .menu-navigetion-list li a {
   color: #465e6a;
   font: normal 700 0.8rem/1rem 'Be Vietnam Pro', sans-serif;
 }
 
-#menu-navigetion .menu-navigetion-list li a:focus {
+#menu-navigation .menu-navigetion-list li a:focus {
   color: #000000;
 }
 
-#product-cards {
-  padding-top: 3.5rem;
+#menu-navigation .tab-products .product-cards-all {
+  margin-top: 2rem;
 }
 
-#product-cards .product-cards-all .product-card {
+#menu-navigation .tab-products .product-cards-all .product-card {
   overflow: hidden;
   height: 18rem;
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
   border-radius: 2px;
-  margin-right: 0.5rem;
+  margin: 1rem 0.5rem;
 }
 
-#product-cards .product-cards-all .product-card img {
+#menu-navigation .tab-products .product-cards-all .product-card img {
   -o-object-fit: contain;
      object-fit: contain;
   height: 12rem;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
-#product-cards .product-cards-all .product-card .product-card-footer {
-  position: relative;
-  top: 1rem;
+#menu-navigation .tab-products .product-cards-all .product-card .product-card-footer {
+  margin-top: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -148,20 +147,16 @@ button {
           justify-content: space-between;
 }
 
-#product-cards .product-cards-all .product-card .product-card-footer .product-card-footer-price {
+#menu-navigation .tab-products .product-cards-all .product-card .product-card-footer .product-card-footer-price {
   color: #da0909;
   font-weight: 600;
   margin: 1rem 0px;
 }
 
-#product-cards .product-cards-all .product-card .product-card-footer .product-card-footer-button {
+#menu-navigation .tab-products .product-cards-all .product-card .product-card-footer .product-card-footer-button {
   background-color: transparent;
   border: transparent;
   font-weight: 500;
-}
-
-#product-cards .product-cards-bottom {
-  margin-top: 2rem;
 }
 
 #footer {

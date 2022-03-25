@@ -62,17 +62,19 @@
 
 
 // Pages Navigation Menu
-#menu-navigetion {
-    margin-top: 2rem;
+#menu-navigation {
+    margin-top: 4rem;
+
 
     // Pages Navigation Menu title list
     .menu-navigetion-list {
+
         display: flex;
         justify-content: center;
 
         // Pages Navigation Menu title
         li {
-            margin-right: 2.5rem;
+            margin-right: 1.4rem;
 
             a {
                 color: $text-color-grey;
@@ -87,67 +89,69 @@
 
         }
     }
-}
 
-// Page Shopping Product Cards 
-#product-cards {
-    padding-top: 3.5rem;
+    // Product Cards
+    .tab-products {
 
-    // Page Shopping Product Cards Top and bottom
-    .product-cards-all {
+        // Page Shopping Product Cards 
+        .product-cards-all {
+            margin-top: 2rem;
 
-        // Page Shopping Product All cards properties
-        .product-card {
-            overflow: hidden;
-            @include _card;
-            margin-right: 0.5rem;
+            // Page Shopping Product All cards properties
+            .product-card {
+                overflow: hidden;
+                @include _card;
+               margin: 1rem 0.5rem;
 
-            // Page Shopping Product All cards image
-            img {
-                object-fit: contain;
-                height: 12rem;
-                padding: 1rem;
-            }
 
-            // Page Shopping Product All cards Footer
-            .product-card-footer {
-                position: relative;
-                top: 1rem;
-                border-top: 1px solid rgba(0, 0, 0, .1);
-                display: flex;
-                justify-content: space-between;
-
-                //Page Product Card Price
-                .product-card-footer-price {
-                    color: $price-color-red;
-                    font-weight: 600;
-                    margin: 1rem 0px;
+                // Page Shopping Product All cards image
+                img {
+                    object-fit: contain;
+                    height: 12rem;
+                    padding: 0.8rem;
+                  
                 }
 
-                //Page  Product Card Insert button
-                .product-card-footer-button {
-                    background-color: transparent;
-                    border: transparent;
-                    font-weight: 500;
+                // Page Shopping Product All cards Footer
+                .product-card-footer {
+                  margin-top: 1rem;
+                    border-top: 1px solid rgba(0, 0, 0, .1);
+                    display: flex;
+                    justify-content: space-between;
 
-                    //Page  Product Card Insert button plus(+)
-                    // .plus {
+                    //Page Product Card Price
+                    .product-card-footer-price {
+                        color: $price-color-red;
+                        font-weight: 600;
+                        margin: 1rem 0px;
+                    }
 
-                    //     // &:focus {}
-                    // }
+                    //Page  Product Card Insert button
+                    .product-card-footer-button {
+                        background-color: transparent;
+                        border: transparent;
+                        font-weight: 500;
+
+                        //Page  Product Card Insert button plus(+)
+                        // .plus {
+
+                        //     // &:focus {}
+                        // }
+
+                    }
+
 
                 }
-
-
             }
         }
+
     }
 
-    // Product cards in  bottom 
-    .product-cards-bottom {
-        margin-top: 2rem;
-    }
 }
+
+
+
+
 
 
 //------------------Footer-------------------//
