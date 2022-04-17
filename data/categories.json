@@ -1,0 +1,91 @@
+[ 
+   
+
+    {
+        "category_id": 2,
+        "category_name": "book",
+        "category_products_count": 1,
+        "category_products": [
+          
+            {
+                "product_id": 1,
+                "product_name": "Journal",
+                "product_price": 13.74
+            }
+        ]
+    },
+   
+    {
+        "category_id": 3,
+        "category_name": "music",
+        "category_products_count": 1,
+        "category_products": [
+         
+            {
+                "product_id": 1,
+                "product_name": "Cd",
+                "product_price": 13.74
+            }
+        ]
+    },
+   
+    {
+        "category_id": 4,
+        "category_name": "food",
+        "category_products_count": 2,
+        "category_products": [
+
+           
+            {
+                "product_id": 1,
+                "product_name": "Coffee",
+                "product_price": 13.74
+            },
+           
+            {
+                "product_id": 2,
+                "product_name": "Chocolate",
+                "product_price": 13.74
+            }
+        ]
+    },
+  
+    {
+        "category_id": 5,
+        "category_name": "parfume",
+        "category_products_count": 2,
+        "category_products": [
+
+        
+            {
+                "product_id": 1,
+                "product_name": "Gilo",
+                "product_price": 13.74
+            },
+           
+            {
+                "product_id": 2,
+                "product_name": "Ribaco",
+                "product_price": 13.74
+            }
+        ]
+    },
+
+    {
+        "category_id": 6,
+        "category_name": "medical",
+        "category_products_count": 1,
+        "category_products": [
+
+          
+            {
+                "product_id": 1,
+                "product_name": "Medicine",
+                "product_price": 13.74
+            }
+
+        ]
+    }
+   
+]
+ 
